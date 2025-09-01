@@ -157,6 +157,7 @@ API Gateway pełniący rolę punktu wejścia do systemu:
 
 
 #### Przykładowa Architektura Serwisu Finance
+```bash
 /backend/finance/
 ├─ src/
 │   ├─ main/
@@ -238,7 +239,7 @@ API Gateway pełniący rolę punktu wejścia do systemu:
 │   │   │           └─ Utils.java
 │   │   └─ resources/
 │   │       └─ application.yml
-
+```
 
 ## 🛠️ Technologie i Stack
 ### Frontend Stack
