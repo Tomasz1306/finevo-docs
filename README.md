@@ -8,6 +8,11 @@ Serwis internetowy do zarządzania wydatkami.
 Finevo to system zarządzania finansami osobistymi, który wykorzystuje technologie AI i udostępnia intuicyjny interfejs użytkownika. Projekt powstał z myślą o automatyzacji procesu zarządzania paragonami i wydatkami osobistymi.
 
 ## Demo / Screenshots
+<img width="1536" height="1296" alt="dashboard" src="https://github.com/user-attachments/assets/efb6afd4-573a-4bff-9f47-3ccd1d86709d" />
+<img width="1535" height="1296" alt="budgets" src="https://github.com/user-attachments/assets/77a7c062-863e-4be7-92f6-91c637b382c7" />
+<img width="1537" height="1296" alt="expenses" src="https://github.com/user-attachments/assets/0a5358f2-3130-4b2f-9fa6-0b919d15b0e5" />
+<img width="1532" height="1297" alt="planning" src="https://github.com/user-attachments/assets/56ac20a5-f81f-465b-b4c7-73f7f78e281b" />
+<img width="1536" height="1297" alt="receipts" src="https://github.com/user-attachments/assets/cc3d3e50-9182-4d1b-a221-da9f99e11af6" />
 
 ## 🎯 Główne cele projektu
 
