@@ -83,37 +83,37 @@ Frontend aplikacji jest zbudowany w oparciu o Next.js z App Router. Struktura ap
 - **Planowanie** - tworzenie nowego budżetu
 
 #### Architektura
+```bash
 /frontend
 ├─ app/          
-│   ├─ components/
-│   │   ├─ budgets/
-
-│   │   ├─ dashboard/
-│   │   ├─ expenses/
-│   │   ├─ home/
-│   │   ├─ planning/
-│   │   ├─ AuthenticationLayout.tsx/
-│   │   ├─ Header.tsx/
-│   │   ├─ Footer.tsx/
-│   │   ├─ planning/
-│   ├─ budgets/
-│   │   ├─ page.tsx/
-│   │   ├─ layout.tsx/
-│   ├─ receipts/
-│   ├─ dashboard/
-│   ├─ expenses/
-│   ├─ login/
-│   ├─ planning/
-│   ├─ profile/
-│   ├─ register/
-│   ├─ types/
-│   ├─ utils/
-│   ├─ contexts/
-│   ├─ hooks/
-│   ├─ lib/
-│   ├─ global.css
-│   ├─ layout.tsx/
-│   ├─ page.tsx/
+│  ├─ components/
+│  │  ├─ budgets/
+│  │  ├─ dashboard/
+│  │  ├─ expenses/
+│  │  ├─ home/
+│  │  ├─ planning/
+│  │  ├─ AuthenticationLayout.tsx
+│  │  ├─ Header.tsx
+│  │  ├─ Footer.tsx
+│  ├─ budgets/
+│  │  ├─ page.tsx
+│  │  ├─ layout.tsx
+│  ├─ receipts/
+│  ├─ dashboard/
+│  ├─ expenses/
+│  ├─ login/
+│  ├─ planning/
+│  ├─ profile/
+│  ├─ register/
+│  ├─ types/
+│  ├─ utils/
+│  ├─ contexts/
+│  ├─ hooks/
+│  ├─ lib/
+│  ├─ global.css
+│  ├─ layout.tsx
+│  ├─ page.tsx
+```
 
 #### Komponenty Interfejsu
 - **Komponenty bazowe** - przyciski, formularze, karty
