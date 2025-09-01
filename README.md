@@ -87,6 +87,7 @@ Frontend aplikacji jest zbudowany w oparciu o Next.js z App Router. Struktura ap
 ├─ app/          
 │   ├─ components/
 │   │   ├─ budgets/
+
 │   │   ├─ dashboard/
 │   │   ├─ expenses/
 │   │   ├─ home/
