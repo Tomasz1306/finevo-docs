@@ -1,11 +1,11 @@
-# Finevo
+# Planevo
 
 Serwis internetowy do zarządzania wydatkami.
 
-# 🎯 Przegląd Projektu Finevo
+# 🎯 Przegląd Projektu Planevo
 
 ## 📖 Opis projektu
-Finevo to system zarządzania finansami osobistymi, który wykorzystuje technologie AI i udostępnia intuicyjny interfejs użytkownika. Projekt powstał z myślą o automatyzacji procesu zarządzania paragonami i wydatkami osobistymi.
+Planevo to system zarządzania finansami osobistymi, który wykorzystuje technologie AI i udostępnia intuicyjny interfejs użytkownika. Projekt powstał z myślą o automatyzacji procesu zarządzania paragonami i wydatkami osobistymi.
 
 ## Demo / Screenshots
 
@@ -83,7 +83,7 @@ Aplikacja jest w pełni responsywna i działa optymalnie na:
 - Spójny system design
 - Ciemny jasny motyw
 
-## 🏗️  Architektura Systemu Finevo
+## 🏗️  Architektura Systemu Planevo
 ### Frontend (Next.js)
 
 Frontend aplikacji jest zbudowany w oparciu o Next.js z App Router. Struktura aplikacji jest podzielona na poszczególne sekcje:
