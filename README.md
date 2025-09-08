@@ -1,7 +1,6 @@
 # Planevo
 
-[Planevo](https://www.planevo.pl/)
-
+**Link do strony:** [https://www.planevo.pl/](https://www.planevo.pl/)
 
 Serwis internetowy do zarządzania wydatkami.
 
