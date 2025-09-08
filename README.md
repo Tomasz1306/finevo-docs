@@ -90,7 +90,7 @@ Aplikacja jest w pełni responsywna i działa optymalnie na:
 # Kubernetes Cluster
 
 Poniżej schemat klastra z 1 Master Node i 2 Worker Nodes.
-
+```bash
           ┌────────────┐
           │   Master   │
           │  Node 1    │
@@ -105,7 +105,7 @@ Poniżej schemat klastra z 1 Master Node i 2 Worker Nodes.
 │  Node 2    │       │  Node 3    │
 │ (Pods)     │       │ (Pods)     │
 └────────────┘       └────────────┘
-
+```
 
 
 ### Frontend (Next.js)
