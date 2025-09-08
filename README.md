@@ -86,6 +86,28 @@ Aplikacja jest w pełni responsywna i działa optymalnie na:
 - Ciemny jasny motyw
 
 ## 🏗️  Architektura Systemu Planevo
+
+# Kubernetes Cluster
+
+Poniżej schemat klastra z 1 Master Node i 2 Worker Nodes.
+
+          ┌────────────┐
+          │   Master   │
+          │  Node 1    │
+          │ (API + etcd│
+          │ scheduler) │
+          └─────┬──────┘
+                │
+      ┌─────────┴─────────┐
+      │                   │
+┌────────────┐       ┌────────────┐
+│  Worker    │       │  Worker    │
+│  Node 2    │       │  Node 3    │
+│ (Pods)     │       │ (Pods)     │
+└────────────┘       └────────────┘
+
+
+
 ### Frontend (Next.js)
 
 Frontend aplikacji jest zbudowany w oparciu o Next.js z App Router. Struktura aplikacji jest podzielona na poszczególne sekcje:
