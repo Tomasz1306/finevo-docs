@@ -89,7 +89,7 @@ Aplikacja jest w pełni responsywna i działa optymalnie na:
 
 # Warstwa Infrastruktury
 
-Poniżej schemat infrastruktury.
+Poniżej schemat infrastruktury z trzema maszynami wirtualnymi.
 ```bash
           ┌──────────────────────┐
           │  Master Node (VM1)   │
