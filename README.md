@@ -91,20 +91,19 @@ Aplikacja jest w pełni responsywna i działa optymalnie na:
 
 Poniżej schemat klastra z 1 Master Node i 2 Worker Nodes.
 ```bash
-          ┌────────────┐
-          │   Master   │
-          │  Node 1    │
-          │ (API + etcd│
-          │ scheduler) │
-          └─────┬──────┘
-                │
-      ┌─────────┴─────────┐
-      │                   │
-┌────────────┐       ┌────────────┐
-│  Worker    │       │  Worker    │
-│  Node 2    │       │  Node 3    │
-│ (Pods)     │       │ (Pods)     │
-└────────────┘       └────────────┘
+          ┌──────────────────────┐
+          │  Master Node (VM1)   │
+          │Control Plane + NGINX │
+          └───────────┬──────────┘
+                      │ Flannel CNI
+        ┌─────────────┴─────────────┐
+        │                           │
+┌──────────────────┐       ┌──────────────────┐
+│ Worker Node (VM2)│       │ Worker Node (VM3)│
+│                  │       │                  │
+│                  │       │                  │
+└──────────────────┘       └──────────────────┘
+
 ```
 Master Node – pełni rolę kontrolną w Kubernetesie (API Server, etcd, Scheduler, Controller Manager). Dodatkowo na tej samej maszynie działa NGINX, który jest wystawiony jako reverse proxy / ingress i obsługuje ruch z zewnątrz.
 
