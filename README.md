@@ -106,7 +106,9 @@ Poniżej schemat klastra z 1 Master Node i 2 Worker Nodes.
 │ (Pods)     │       │ (Pods)     │
 └────────────┘       └────────────┘
 ```
+Master Node – pełni rolę kontrolną w Kubernetesie (API Server, etcd, Scheduler, Controller Manager). Dodatkowo na tej samej maszynie działa NGINX, który jest wystawiony jako reverse proxy / ingress i obsługuje ruch z zewnątrz.
 
+Worker Node 1 i 2 – na tych maszynach uruchamiane są pody z mikroserwisami aplikacji (Auth Service, Finance Service, Gateway Service, itd.).
 
 ### Frontend (Next.js)
 
