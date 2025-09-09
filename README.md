@@ -277,8 +277,25 @@ API Gateway pełniący rolę punktu wejścia do systemu:
 │   │   │       │   └─ UserServiceImpl.java
 │   │   │       └─ util/
 │   │   │           └─ Utils.java
-│   │   └─ resources/
-│   │       └─ application.yml
+│   │   └── resources
+│   │       └── application.yml
+│   └── test
+│       └── java
+│           └── com
+│               └── receipts
+│                   └── finance
+│                       ├── controller
+│                       │   ├── BudgetControllerTest.java
+│                       │   ├── CategoryControllerTest.java
+│                       │   ├── DashBoardControllerTest.java
+│                       │   └── ExpenseControllerTest.java
+│                       ├── FinanceApplicationTests.java
+│                       └── service
+│                           ├── BudgetServiceTest.java
+│                           ├── CategoryServiceTest.java
+│                           ├── DashBoardServiceTest.java
+│                           └── ExpenseServiceTest.java
+
 ```
 
 ## 🛠️ Technologie i Stack
