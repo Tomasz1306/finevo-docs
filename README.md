@@ -294,9 +294,9 @@ API Gateway pełniący rolę punktu wejścia do systemu:
 
 -   **Ansible** – automatyzacja konfiguracji serwerów i wdrożeń aplikacji
     
--   **Vagrant** – przygotowanie spójnych środowisk developerskich i testowych
+-   **Vagrant** – przygotowanie spójnych środowisk developerskich i produkcyjnych
     
--   **Digital Ocean** – hostowanie backendu i frontendu w chmurze, skalowalne instancje dla mikroserwisów
+-   **Digital Ocean** – hostowanie aplikacji w chmurze 
 
 ### Baza Danych
 - MongoDB
