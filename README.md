@@ -87,9 +87,9 @@ Aplikacja jest w pełni responsywna i działa optymalnie na:
 
 ## 🏗️  Architektura Systemu Planevo
 
-# Kubernetes Cluster
+# Warstwa Infrastruktury
 
-Poniżej schemat klastra z 1 Master Node i 2 Worker Nodes.
+Poniżej schemat infrastruktury.
 ```bash
           ┌──────────────────────┐
           │  Master Node (VM1)   │
