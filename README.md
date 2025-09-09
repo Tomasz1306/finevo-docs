@@ -110,6 +110,8 @@ Master Node – pełni rolę kontrolną w Kubernetesie (API Server, etcd, Schedu
 
 Worker Node 1 i 2 – na tych maszynach uruchamiane są pody z mikroserwisami aplikacji (Auth Service, Finance Service, Gateway Service, itd.).
 
+Networking – komunikacja między nodami zrealizowana przez Flannel (CNI)
+
 ### Frontend (Next.js)
 
 Frontend aplikacji jest zbudowany w oparciu o Next.js z App Router. Struktura aplikacji jest podzielona na poszczególne sekcje:
