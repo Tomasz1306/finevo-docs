@@ -292,7 +292,7 @@ API Gateway pełniący rolę punktu wejścia do systemu:
 
 ### Kontrola Wersji
 - Git / Github
-- 
+  
 ### Automatyzacja i środowiska
 
 -   **Ansible** – automatyzacja konfiguracji serwerów i wdrożeń aplikacji
@@ -303,4 +303,12 @@ API Gateway pełniący rolę punktu wejścia do systemu:
 
 ### Baza Danych
 - MongoDB
+
+## Dalszy Plan Rozwoju
+- Prace nad dokładnością AI
+- Notyfikacje Email - powiadomienia o przekroczonych budżetach 
+- Analizy predykcyjne
+- Generowanie raportów na koniec miesiąca
+- Obsługa e-paragonów i e-faktur 
+- Testy aplikacji wśród małej grupy użytkowników - identyfikacja problemów i dostosowanie funkcjonalności do realnych potrzeb
 
