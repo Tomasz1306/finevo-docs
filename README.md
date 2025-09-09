@@ -305,9 +305,8 @@ API Gateway pełniący rolę punktu wejścia do systemu:
 - MongoDB
 
 ## Dalszy Plan Rozwoju
-- Prace nad dokładnością AI
+- Poprawienie dokładności przetwarzania paragonów
 - Notyfikacje Email - powiadomienia o przekroczonych budżetach 
-- Analizy predykcyjne
 - Generowanie raportów na koniec miesiąca
 - Obsługa e-paragonów i e-faktur 
 - Testy aplikacji wśród małej grupy użytkowników - identyfikacja problemów i dostosowanie funkcjonalności do realnych potrzeb
